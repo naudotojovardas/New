@@ -10,7 +10,7 @@ def remove_empty_arrays(arr):
 
 # Desired Outcome:
 # Fix the function, so it returns the list without any empty lists while preserving other elements without any error.
-arr = ([1, 2, [], 4]) #➞ [1, 2, 4]
+arr = ([1, 2, [], 4])  #➞ [1, 2, 4]
 print(remove_empty_arrays(arr))
 
 # However, currently it throws an error:
