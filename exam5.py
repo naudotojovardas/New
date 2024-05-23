@@ -6,7 +6,7 @@
 # - A list where all empty lists have been removed.
 
 def remove_empty_arrays(arr):
-    return [number for number in arr if len(arr) += 0]
+    return [number for number in arr if not (isinstance(number, list)) and len(arr) != 0]
 
 # Desired Outcome:
 # Fix the function, so it returns the list without any empty lists while preserving other elements without any error.
