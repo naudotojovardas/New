@@ -44,4 +44,5 @@ users = [
 
 # Testing the functions
 print(calculate_average_age(users))  # This should print the average age
+print('---')
 print(list_user_names(users))  # This should print the sorted list of names
