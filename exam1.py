@@ -14,7 +14,7 @@ def calculate_average_age(users):
     
     return round(average_age, 2)
     # Example function body (implementation needed)
-    # pass
+    pass
 
 # Part 2: Retrieve Sorted List of User Names
 # Objective: Create a function `list_user_names` that takes an array of user objects and returns a list
@@ -23,8 +23,10 @@ def calculate_average_age(users):
 # - The function should extract the 'name' from each user object and compile a list of these names.
 # - The list should be returned in alphabetical order.
 def list_user_names(users):
-
-
+    names = [user['name'] for user in users]
+    sorted_names = sorted(names)
+    return sorted_names
+  
     pass
 
 # Example user data
@@ -42,4 +44,4 @@ users = [
 
 # Testing the functions
 print(calculate_average_age(users))  # This should print the average age
-# print(list_user_names(users))  # This should print the sorted list of names
+print(list_user_names(users))  # This should print the sorted list of names
