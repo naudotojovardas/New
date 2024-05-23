@@ -13,6 +13,9 @@ def calculate_discounted_price(original_price, discount_percentage):
     return round(final_price, 2)
 
 original_price = float(input('Input price : '))
+
 discout_percentage = float(input('Input discount amount : '))
+
 final_price = calculate_discounted_price(original_price, discout_percentage)
+
 print(f'This is final price : {final_price}')
