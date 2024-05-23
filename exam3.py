@@ -20,6 +20,8 @@ if color == 'done' :
 else:
     print('wrong information, abort!')
 
+#done!
+
 
 
 
