@@ -9,7 +9,6 @@
 # Returns:
 # - A string based on the criteria above.
 
-
 # def fizz_buzz(N):
 #     N = 0
 #     for i in range(N):
@@ -25,6 +24,7 @@
 #         return N
 # N = float(input('input number: '))
 # print(fizz_buzz(N))
+
 
 def fizz_buzz(n):
     sum = 0
