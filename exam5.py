@@ -6,11 +6,12 @@
 # - A list where all empty lists have been removed.
 
 def remove_empty_arrays(arr):
-    return [x for x in arr if len(x) != 0]
+    return [number for number in arr if len(arr) += 0]
 
 # Desired Outcome:
 # Fix the function, so it returns the list without any empty lists while preserving other elements without any error.
-# remove_empty_arrays([1, 2, [], 4]) ➞ [1, 2, 4]
+arr = ([1, 2, [], 4]) #➞ [1, 2, 4]
+print(remove_empty_arrays(arr))
 
 # However, currently it throws an error:
 # ERROR: Traceback:
