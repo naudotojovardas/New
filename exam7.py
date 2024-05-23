@@ -7,7 +7,10 @@
 
 
 # Example usages:
-# print(sort_by_length(["a", "ccc", "dddd", "bb"]))  # Output: ["a", "bb", "ccc", "dddd"]
-# print(sort_by_length(["apple", "pie", "shortcake"]))  # Output: ["pie", "apple", "shortcake"]
-# print(sort_by_length(["may", "april", "september", "august"]))  # Output: ["may", "april", "august", "september"]
-# print(sort_by_length([]))  # Output: [], handling the empty list case
+def sort_by_length(sort):
+    return sorted(sort, key=len)
+
+print(sort_by_length(["a", "ccc", "dddd", "bb"]))  # Output: ["a", "bb", "ccc", "dddd"]
+print(sort_by_length(["apple", "pie", "short, ake"])) # Output: ["pie", "apple", "shortcake"]
+print(sort_by_length(["may", "april", "september", "august"]))  # Output: ["may", "april", "august", "september"]
+print(sort_by_length([]))  # Output: [], handling the empty list case
